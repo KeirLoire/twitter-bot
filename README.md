@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://specials-images.forbesimg.com/imageserve/62a140a0e63921d4f0ccd11c/bot-twitter16x9/0x0.gif?fit=scale" width="200" alt="MyDefiBot logo"/><br>
+    <img src="https://specials-images.forbesimg.com/imageserve/62a140a0e63921d4f0ccd11c/bot-twitter16x9/0x0.gif?fit=scale" width="200" alt="Twitter bot logo"/><br>
     <b style="font-size:25px">Twitter Bot</b><br>
     <a href="https://www.python.org/downloads/release/python-379/"><img src="https://img.shields.io/badge/python-3.7-00a0dc?label=python&style=flat&logo=python" alt="MyDefiPet logo"/></a>
 </p>
@@ -15,7 +15,8 @@ This script requires prerequisites in order to run.
 
 ## How to setup
 - Run `pip install -r requirements.txt` to install all dependencies
-- Configure the access tokens and keys in the `config.ini` file
+- Configure the access tokens and keys in the `[twitter]` and `[openai]` section `config.ini` file
+- Run `python generate_user_access_token.py`
 - Run `python main.py`
 - Leave your script open.
 
@@ -23,7 +24,7 @@ If you want the script to end, just press `CTRL + C`.
 
 ## Limitations
 
-Doesn't support handling direct messages yet.
+Doesn't support direct messages yet.
 
 ## Disclaimer
 
